@@ -24,4 +24,4 @@ The r script run_analysis.R completes the following tasks.
 
 
 #### tidy_dataset.txt
-    contains the resulting output dataset created in 8th step.
+   contains the resulting output dataset created in 8th step.
