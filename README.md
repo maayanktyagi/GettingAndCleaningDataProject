@@ -32,5 +32,6 @@ To use the run_analysis script -
 
 1. Download the dataset.
 2. Unzip the dataset files.
-3. Put the run_analysis.R script in the base directory for the dataset.
-3. Execute the run_analysis.R script.
+3. Put the run_analysis.R script in the base directory of the dataset.
+4. Execute the run_analysis.R script.
+
