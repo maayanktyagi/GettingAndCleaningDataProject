@@ -1,13 +1,14 @@
 # Getting and Cleaning Data Project
   This repository contains the final course project for the course Getting and Cleaning Data.
   
-  The dataset used for this project is available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
+  The dataset used for this project is available at this [weblink](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip).
+  The original full description of the dataset can be found [here](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
   
   
   The project directory contains the following files-
     
 #### CodeBook.md
-   describes the variables, the data, and any transformations performed to clean up the data.
+   describes the variables along with their descriptions, the data, and any transformations performed to clean up the data.
 #### run_analysis.R - 
 
 The r script run_analysis.R completes the following tasks.
@@ -30,7 +31,7 @@ The r script run_analysis.R completes the following tasks.
 
 To use the run_analysis script - 
 
-1. Download the dataset.
+1. Download the dataset from this [weblink](https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip). .
 2. Unzip the dataset files.
 3. Put the run_analysis.R script in the base directory of the dataset.
 4. Execute the run_analysis.R script.
