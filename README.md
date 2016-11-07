@@ -1,7 +1,6 @@
 # Getting and Cleaning Data Project
   This repository contains the final course project for the course Getting and Cleaning Data.
   
-  
   The dataset used for this project is available at https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
   
   
@@ -25,3 +24,13 @@ The r script run_analysis.R completes the following tasks.
 
 #### tidy_dataset.txt
    contains the resulting output dataset created in 8th step.
+
+
+
+
+To use the run_analysis script - 
+
+1.Download the dataset.
+2.Unzip the dataset files.
+3.Put the run_analysis.R script in the base directory for the dataset.
+3.Execute the run_analysis.R script.
