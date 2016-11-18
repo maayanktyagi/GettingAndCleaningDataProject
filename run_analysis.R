@@ -41,11 +41,9 @@ merged_data <- join(std_data, activity_labels , by = "Activity_ID", match = "fir
 
 
 merged_data <- merged_data[,-1]
+names(merged_data) <- tolower(names(merged_data))%s%
+names(merged_data)  <- gsub("_","",merged_data)
+tidy_dataset <- ddply(merged_data,c("subject",Activity = "activity_name"), function(x) colMeans(x[ 1:66],na.rm= FALSE))
 
-
-tidy_dataset <- ddply(merged_data,c("Subject",Activity = "Activity_name"), function(x) colMeans(x[ 1:66],na.rm= FALSE))
 
 write.table(tidy_dataset,"tidy_dataset.txt")
-
-
-
